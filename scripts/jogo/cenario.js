@@ -1,14 +1,15 @@
 class Cenario {
-  constructor(imagem, velocidade) {
+  constructor(imagem, imagemReversa = null, velocidade) {
     this.imagem = imagem;
+    this.imagemReversa = imagemReversa;
     this.velocidade = velocidade;
     this.x1 = 0;
     this.x2 = width;
   }
 
   exibe() {
-    image(this.imagem, this.x1, 0, width, height);
-    image(this.imagem, this.x2, 0, width, height);
+    image(this.imagem, this.x1, 0, width, height);    
+    image(this.imagemReversa === null ? this.image : this.imagemReversa, this.x2, 0, width, height);    
   }
 
   move() {
