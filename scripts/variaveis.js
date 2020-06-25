@@ -56,6 +56,14 @@ const matrizInimigo = [
   [208, 626],
   [312, 626],
 ]
+const matrizInimigoCogumelo = [
+  [0, 0],
+  [120, 0],
+  [240, 0],
+  [0, 120],
+  [120, 120],
+  [240, 120],
+]
 const matrizPersonagem = [
   [0, 0],
   [220, 0],

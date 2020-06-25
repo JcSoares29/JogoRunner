@@ -9,8 +9,8 @@ class Jogo {
         personagem = new Personagem(matrizPersonagemHK,
             imagemPersonagem, 0, 80, 70, 152, 70, 152);
         const inimigo = new Inimigo(
-            matrizInimigo, imagemInimigo, width - 52, 80, 52, 52,
-            104, 104, 10, 100
+            matrizInimigoCogumelo, imagemInimigo, width - 52, 80, 90, 90,
+            120, 120, 10, 100
         );
         const inimigoVoador = new Inimigo(
             matrizInimigoVoador, imagemInimigoVoador,

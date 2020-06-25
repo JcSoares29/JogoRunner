@@ -4,7 +4,7 @@ function preload() {
     imagemPersonagem = loadImage('imagens/personagem/knight.png');
     imagemPersonagemDano = loadImage('imagens/personagem/bruxa-dano.png');
     imagemGameOver = loadImage('imagens/assets/game-over.png');
-    imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
+    imagemInimigo = loadImage('imagens/inimigos/cogumelo.png');
     imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
     imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
     imagemTelaInicial = loadImage('imagens/cenario/telaInicial.png');
