@@ -7,14 +7,21 @@ let imagemInimigoGrande;
 let imagemInimigoVoador;
 let imagemGameOver;
 let imagemTelaInicial;
+let imagemVida;
+let imagemHUDVida;
 let fonteTelaInicial;
 let cenario;
+
+let fita;
 
 let jogo;
 let cenaAtual = 'telaInicial';
 let cenas;
 let telaInicial;
+let fases;
 let botaoGerenciador;
+let botaoFase1;
+let vida;
 
 let somDoJogo;
 let somDoPulo;
@@ -63,6 +70,14 @@ const matrizInimigoCogumelo = [
   [0, 120],
   [120, 120],
   [240, 120],
+]
+const matrizInimigoInseto = [
+  [0, 0],
+  [90, 0],
+  [180, 0],
+  [0, 70],
+  [90, 70],
+  [180, 70],
 ]
 const matrizPersonagem = [
   [0, 0],

@@ -24,6 +24,7 @@ class TelaInicial {
     }
 
     _botao() {
+        botaoGerenciador.y = height / 7 * 5;
         botaoGerenciador.draw();
     }
 }
